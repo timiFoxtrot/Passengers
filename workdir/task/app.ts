@@ -61,7 +61,7 @@ const taskOne = (passengers:number, shuffle:number)=>{
                     reservationListFunction(startIndexBoarded, endIndexBoarded);
 
                 } else {
-                    
+
                     reservationListFunction(startIndexBoarded, endIndexBoarded);
                 }
 
@@ -69,6 +69,7 @@ const taskOne = (passengers:number, shuffle:number)=>{
         }
 
     } else {
+        
         diff = passengers;
         startIndexBoarded = 0;
         endIndexBoarded = Math.floor(diff/5) * 5;
